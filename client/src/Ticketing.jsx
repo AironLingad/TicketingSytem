@@ -1,4 +1,4 @@
-import './App.css'
+import './Ticketing.css'
 
 function Header(){
     return (
@@ -10,10 +10,10 @@ function Header(){
 }
 function Form(){
   return(
-    <div>
+    <div className='main-container'>
       <header className='header-title'>Report an Issue</header>
-      <p className='header-text'>Describe the problem you've encountered.</p>
       <div className='form-container'>
+        <p className='header-text-form'>Describe the problem you've encountered.</p>
         <form action="submit">
           <label htmlFor="Name">Name:</label>
           <input type="text" name="name" id="Name" placeholder='Enter your name' />
